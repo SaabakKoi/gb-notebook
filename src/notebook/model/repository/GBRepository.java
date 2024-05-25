@@ -10,5 +10,7 @@ public interface GBRepository {
     User create(User user);
     Optional<User> findById(Long id);
     Optional<User> update(Long userId, User update);
-    boolean delete(Long id);
+    boolean remove(Long id);
+
+
 }
